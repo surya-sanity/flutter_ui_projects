@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_projects/apps/google_keep/widgets/keep_drawer.dart';
 
 class Keep extends StatelessWidget {
   const Keep({Key? key}) : super(key: key);
@@ -58,7 +59,7 @@ class Keep extends StatelessWidget {
           ),
         ),
       ),
-      drawer: const Drawer(),
+      drawer: KeepDrawer(),
       body: Container(),
     );
   }
